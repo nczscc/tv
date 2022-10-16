@@ -177,9 +177,12 @@ CCTV移动,http://newcntv.qcloudcdn.com/asp/hls/1200/0303000a/3/default/649e1903
 老故事,http://111.20.33.70/PLTV/88888893/224/3221226236/index.m3u8$高清720P
 
 🇨🇳｜卫视频道,#genre#
+河南卫视,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225611/index.m3u8?fmt=ts2hls$超清1080P
 河南卫视,http://media.hndyjyfw.gov.cn/live/jz-hnweishi/live.m3u8$高清720P
 河南卫视,http://111.32.169.223/bkhlsliveali-cdn.ysp.cctv.cn/ysp/2000296103.m3u8$超清1080P
-河南卫视,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225611/index.m3u8?fmt=ts2hls$超清1080P
+河南卫视,http://iptv.cdn.ha.chinamobile.com/PLIV/88888888/224/3221226344/index.m3u8$超清4K
+河南卫视,http://xingyang.net.cn:4000/udp/225.1.4.254:1300$超清4K
+河南卫视,http://218.29.135.2:4000/udp/225.1.4.254:130$超清4K
 
 湖南卫视,http://111.20.33.70/TVOD/88888893/224/3221226211/index.m3u8$超清1080P
 湖南卫视,http://222.175.159.226:808/hls/41/index.m3u8$超清1080P
