@@ -1,4 +1,4 @@
-# TikTok
+# Quantumult X Tiktok 分流规则
 HOST,p16-tiktokcdn-com.akamaized.net,TikTok
 HOST-SUFFIX,byteoversea.com,TikTok
 HOST-SUFFIX,ibytedtos.com,TikTok
