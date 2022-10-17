@@ -349,6 +349,7 @@ CCTV17,http://39.135.138.60:18890/PLTV/88888910/224/3221225908/index.m3u8
 广西卫视,http://183.196.25.171:808/hls/46/index.m3u8
 
 甘肃卫视,http://39.134.32.102:6610/270000001111/1110000322/index.m3u8?IASHttpSessionId=OTT
+甘肃卫视,http://39.134.39.39/PLTV/88888888/224/3221226240/index.m3u8
 
 东南卫视,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225657/index.m3u8
 东南卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225657/index.m3u8?icpid=88888888&from=30&hms_devid=1452
@@ -375,9 +376,11 @@ CCTV17,http://39.135.138.60:18890/PLTV/88888910/224/3221225908/index.m3u8
 
 西藏卫视,http://218.204.51.252:9901/tsfile/live/1046_1.m3u8
 
+海峡卫视,rtsp://183.252.166.199/PLTV/88888888/224/3221226128/10000100000000060000000002434539_0.smil
+
 新疆卫视,http://livehyw5.chinamcache.com/hyw/zb01.m3u8?txSecret=58347f72aece2c25c685b8dc4da74652&txTime=95A66658
 
-🏀｜体育,#genre#
+🏀｜体育竞技,#genre#
 CCTV5,http://39.135.138.59:18890/PLTV/88888910/224/3221225633/index.m3u8
 CCTV5,http://39.135.138.60:18890/PLTV/88888910/224/3221225633/index.m3u8
 CCTV5,http://111.59.189.40:8445/tsfile/live/0113_1.m3u8
@@ -437,7 +440,7 @@ TNTSPORTS 3,https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
 TNTSPORTS 4,https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
 TNTSPORTS 5,https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
 
-🍉NewTv,#genre#
+🍉｜NewTv,#genre#
 NewTV东北热剧,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226202/index.m3u8
 NewTV中国功夫,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225660/index.m3u8
 NewTV军事评论,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225757/index.m3u8
