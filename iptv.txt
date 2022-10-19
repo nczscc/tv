@@ -567,6 +567,42 @@ TNTSPORTS 3,https://glxlmn026c.singularcdn.net.br/playout_03/playlist-720p.m3u8
 TNTSPORTS 4,https://glxlmn026c.singularcdn.net.br/playout_04/playlist-720p.m3u8
 TNTSPORTS 5,https://glxlmn026c.singularcdn.net.br/playout_05/playlist-720p.m3u8
 
+📺｜河南频道,#genre#
+河南卫视,https://tvcdn.stream3.hndt.com/tv/65c4a6d5017e1000b2b6ea2500000000_transios/playlist.m3u8?wsSecret=c5827b66e63562a2b46e89640da00a29&wsTime=1666171522
+都市频道,https://tvcdn.stream3.hndt.com/tv/65c3fbc5017e1000fde13faa00000000_transios/playlist.m3u8?wsSecret=4dfe77cbb6d184d37ad0589f85a45062&wsTime=1666174546
+民生频道,https://tvcdn.stream3.hndt.com/tv/65bef28a017e10009c49d5f900000000_transios/playlist.m3u8?wsSecret=923729990a365445811844501cccaf75&wsTime=1666174546
+法制频道,https://tvcdn.stream3.hndt.com/tv/65be54a9017e1000af59fb4800000000_transios/playlist.m3u8?wsSecret=1fc2198ff24fb9fa7f6c101d0bacc8bd&wsTime=1666174546
+电视剧频道,https://tvcdn.stream3.hndt.com/tv/65bd329b017e1000648cd2ed00000000_transios/playlist.m3u8?wsSecret=090c8671bcc1fe85f5b932987705c97f&wsTime=1666176051
+新闻频道,https://tvcdn.stream3.hndt.com/tv/65bb6966017e100059b75a8500000000_transios/playlist.m3u8?wsSecret=b7febb3d4ee914bf5631f7c9b32c33e5&wsTime=1666176051
+公共频道,https://tvcdn.stream3.hndt.com/tv/65b93894017e10000ae6b07d00000000_transios/playlist.m3u8?wsSecret=b822e8db925926f64bc74a2399b4c3a9&wsTime=1666176051
+乡村频道,https://tvcdn.stream3.hndt.com/tv/65b8302b017e100019dc540f00000000_transios/playlist.m3u8?wsSecret=78c27a545a4717902c6522e7028825e0&wsTime=1666176051
+河南国际,https://tvcdn.stream3.hndt.com/tv/65b7751f017e1000d8998f0900000000_transios/playlist.m3u8?wsSecret=9fdb1eaaefd927cd3cdd81d7f431240f&wsTime=1666176051
+梨园频道,https://tvcdn.stream3.hndt.com/tv/65b67b15017e1000258a2b2400000000_transios/playlist.m3u8?wsSecret=20557ef51c30782a460652eabbad4759&wsTime=1666176051
+文物宝库,https://tvcdn.stream3.hndt.com/tv/65b5a69d017e1000aa645bea00000000_transios/playlist.m3u8?wsSecret=3776113a3616671980de27703348fadb&wsTime=1666176051
+武术世界,https://tvcdn.stream3.hndt.com/tv/65b4b750017e1000dbb9306200000000_transios/playlist.m3u8?wsSecret=a4727950f744e2b4aa4caf0c96c36e97&wsTime=1666176051
+睛彩中原,https://tvcdn.stream3.hndt.com/tv/65b27d4c017e100039bd55c200000000_transios/playlist.m3u8?wsSecret=ca3f7aea8843213a3802a98dae3c970d&wsTime=1666176051
+移动戏曲,https://tvcdn.stream3.hndt.com/tv/160ea8971f8b41f0905f88c7afe3effe_transios/playlist.m3u8?wsSecret=a64e095d940111ed072b5bb0ac01e8c9&wsTime=1666176051
+象视界,https://tvcdn.stream3.hndt.com/tv/d34d1a2b0178100022de972e00000000_transios/playlist.m3u8?wsSecret=3320f1a5e83162bdc61fdafe3b88ea16&wsTime=1666176051
+中华特产,https://tvcdn.stream3.hndt.com/tv/afb1b696017f1000d2aa1acb00000000_transios/playlist.m3u8?wsSecret=397726194ae0006a2a7bc02d01c29c9c&wsTime=1666176051
+
+🐲｜中国节日,#genre#
+2022重阳奇妙游,https://media2.hndt.com/data_01/1/3/2022/10/03/2358ae72e49d9aa5aa1719f1318f6d1d.mp4
+2022中秋奇妙游,https://media2.hndt.com/data_01/1/3/2022/09/15/540a848537721b70453c43adebddbdcd.mp4
+2022少年游,https://media2.hndt.com/data_01/1/3/2022/08/13/0eece689ed30fcb130b242dde5bcddd4.mp4
+2022七夕奇妙游,https://media2.hndt.com/data_01/1/3/2022/08/03/d88352a3aa007c938f3efcf64180c98a.mp4
+2022端午奇妙游,https://media2.hndt.com/data_01/1/3/2022/06/02/fff40b0eb06ccca221aa93383e77a903.mp4
+2022清明奇妙游,https://media2.hntv.tv/data_01/1/3/2022/04/04/ad0c65973b9aa998953240370d8deb84/1510944949169897474_1920x1080_6000.m3u8
+2022元宵奇妙游,https://media2.hntv.tv/data_01/1/3/2022/02/14/d96c6a1ce142b2f6570c0887c629cebd/1493225848993562625_1920x1080_2000.m3u8
+2022河南春晚,https://media2.hntv.tv/data_01/1/3/2022/01/31/fc3d5e1268d097a8d347c17097e4a8b7.mp4
+新民乐国风夜,https://china-cloud.byteamone.cn/ufile/flv/youku_new/25dc56f3b04c9b0f0d9006a3279f1d6bbd6cd16d7ed2827ee2025ee233aa74998ca2d58db1aa4a00e4e3aeeb81b2a4c699fa16590fd254fae8c3af269de42867/index.m3u8
+2021重阳奇妙游,https://media2.hndt.com/data_01/1/3/2021/10/13/9a74707679b5776a5b2ad9e623e10fcf.mp4
+2021中秋奇妙游,https://media2.hndt.com/data_01/1/3/2021/10/13/9a74707679b5776a5b2ad9e623e10fcf.mp4
+2021七夕奇妙游,https://media2.hntv.tv/data_01/1/3/2021/08/13/d6a3428cb126b4821f63f88e994c63c4.mp4
+2021端午奇妙游,https://media2.hntv.tv/data_01/1/3/2021/10/01/20762c74fb3c1cfe708c84c83f645eb6.mp4
+2021清明奇妙游,https://vmsres.dianzhenkeji.com/1/DXNews/2021/4/09/1380512113663041536.mp4
+2021元宵奇妙游,https://media2.hntv.tv/data_01/1/3/2021/09/11/779774feb3c384cce57d7ade2a79621d.mp4
+2021河南春晚,https://stream5vod.hndt.com/vod/DXNews/2021/2/13/1360571418156449792.mp4/index.m3u8
+
 🍉｜NewTv,#genre#
 NewTV东北热剧,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221226202/index.m3u8
 NewTV中国功夫,http://hwrr.jx.chinamobile.com:8080/PLTV/88888888/224/3221225660/index.m3u8
