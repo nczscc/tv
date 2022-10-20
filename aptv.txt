@@ -46,7 +46,7 @@ CCTV-17 农业农村,http://111.20.33.70/TVOD/88888893/224/3221226198/index.m3u8
 青海卫视,http://stream.qhbtv.com/qhws/sd/live.m3u8?_upt=1da074361609506578
 海南卫视,http://111.40.196.35/PLTV/88888888/224/3221225623/index.m3u8
 贵州卫视,http://39.134.115.163:8080/PLTV/88888910/224/3221225728/index.m3u8
-南方卫视,https://zqy-live.nanyuecloud.com/qingyuandianshi/qingyuandianshistream.m3u8?auth_key=601634549257-0-0-73ab89e29b6bf8ef7b5144cf0c04935a
+南方卫视,http://111.20.33.70/PLTV/88888893/224/3221226218/index.m3u8
 兵团卫视,http://111.59.189.40:8445/tsfile/live/0115_1.m3u8
 西藏卫视,http://218.204.51.252:9901/tsfile/live/1046_1.m3u8
 海峡卫视,rtsp://183.252.166.199/PLTV/88888888/224/3221226128/10000100000000060000000002434539_0.smil
