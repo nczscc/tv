@@ -132,7 +132,7 @@ NewTV 精品记录,http://[2409:8087:1a01:df::7005]/ottrrs.hl.chinamobile.com/TV
 晴彩篮球,http://[2409:8087:1a01:df::403b]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226147/index.m3u8
 晴彩广场舞,http://[2409:8087:1a01:df::4046]/ottrrs.hl.chinamobile.com/TVOD/88888888/224/3221226472/index.m3u8
 
-•游戏「赛事」,#genre#
+🎮 游戏「赛事」,#genre#
 「全球总决赛」英雄联盟 4K,http://live.iill.top/huya.php?id=18524915
 「全球总决赛」英雄联盟 4K,http://live.iill.top/bilibili.php?id=10
 「B站」CS 2,http://live.iill.top/bilibili.php?id=21622811
