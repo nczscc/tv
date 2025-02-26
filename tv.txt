@@ -32,6 +32,8 @@ CCTV-14,http://222.137.25.243:8081/hls/14/index.m3u8
 
 CCTV-15,http://222.137.25.243:8081/hls/15/index.m3u8
 
+CCTV-16,http://183.11.239.36:808/hls/169/index.m3u8
+
 CCTV-17,http://222.137.25.243:8081/hls/17/index.m3u8
 
 CCTV-1,http://222.137.25.243:8081/hls/28/index.m3u8
@@ -438,7 +440,7 @@ CCTV-8,http://183.11.239.36:808/hls/96/index.m3u8
 
 CCTV-15,http://183.11.239.36:808/hls/102/index.m3u8
 
-CCTV-16,http://183.11.239.36:808/hls/169/index.m3u8
+
 
 CCTV-14,http://113.101.119.227:808/hls/5/index.m3u8
 
@@ -1019,49 +1021,49 @@ CCTV-12,http://1.192.16.120:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&a
 CCTV-13,http://1.192.16.120:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-14,http://1.192.16.120:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
 CCTV-15,http://1.192.16.120:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1,http://1.193.177.94:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3,http://1.193.177.94:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4,http://1.193.177.94:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5,http://1.193.177.94:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6,http://1.193.177.94:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8,http://1.193.177.94:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9,http://1.193.177.94:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10,http://1.193.177.94:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV12,http://1.193.177.94:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13,http://1.193.177.94:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14,http://1.193.177.94:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15,http://1.193.177.94:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1,http://1.197.127.114:10443/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2,http://1.197.127.114:10443/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3,http://1.197.127.114:10443/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4,http://1.197.127.114:10443/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5,http://1.197.127.114:10443/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6,http://1.197.127.114:10443/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV7,http://1.197.127.114:10443/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8,http://1.197.127.114:10443/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9,http://1.197.127.114:10443/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10,http://1.197.127.114:10443/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV11,http://1.197.127.114:10443/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV12,http://1.197.127.114:10443/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13,http://1.197.127.114:10443/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14,http://1.197.127.114:10443/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15,http://1.197.127.114:10443/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5,http://1.197.127.114:10443/tsfile/live/1057_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV17,http://1.197.127.114:10443/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV1,http://113.220.232.88:9999/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV2,http://113.220.232.88:9999/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV3,http://113.220.232.88:9999/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV4,http://113.220.232.88:9999/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV5,http://113.220.232.88:9999/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV6,http://113.220.232.88:9999/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV8,http://113.220.232.88:9999/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV9,http://113.220.232.88:9999/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV10,http://113.220.232.88:9999/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV11,http://113.220.232.88:9999/tsfile/live/0011_2.m3u8?key=txiptv&playlive=1&authid=0
-CCTV12,http://113.220.232.88:9999/tsfile/live/0012_2.m3u8?key=txiptv&playlive=1&authid=0
-CCTV13,http://113.220.232.88:9999/tsfile/live/0013_2.m3u8?key=txiptv&playlive=1&authid=0
-CCTV14,http://113.220.232.88:9999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
-CCTV15,http://113.220.232.88:9999/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-1,http://1.193.177.94:9901/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-3,http://1.193.177.94:9901/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-4,http://1.193.177.94:9901/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-5,http://1.193.177.94:9901/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-6,http://1.193.177.94:9901/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-8,http://1.193.177.94:9901/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-9,http://1.193.177.94:9901/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-10,http://1.193.177.94:9901/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-12,http://1.193.177.94:9901/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-13,http://1.193.177.94:9901/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-14,http://1.193.177.94:9901/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-15,http://1.193.177.94:9901/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-1,http://1.197.127.114:10443/tsfile/live/0001_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-2,http://1.197.127.114:10443/tsfile/live/0002_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-3,http://1.197.127.114:10443/tsfile/live/0003_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-4,http://1.197.127.114:10443/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-5,http://1.197.127.114:10443/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-6,http://1.197.127.114:10443/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-7,http://1.197.127.114:10443/tsfile/live/0007_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-8,http://1.197.127.114:10443/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-9,http://1.197.127.114:10443/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-10,http://1.197.127.114:10443/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-11,http://1.197.127.114:10443/tsfile/live/0011_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-12,http://1.197.127.114:10443/tsfile/live/0012_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-13,http://1.197.127.114:10443/tsfile/live/0013_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-14,http://1.197.127.114:10443/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-15,http://1.197.127.114:10443/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-5,http://1.197.127.114:10443/tsfile/live/1057_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-17,http://1.197.127.114:10443/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-1,http://113.220.232.88:9999/tsfile/live/0017_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-2,http://113.220.232.88:9999/tsfile/live/0018_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-3,http://113.220.232.88:9999/tsfile/live/0019_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-4,http://113.220.232.88:9999/tsfile/live/0004_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-5,http://113.220.232.88:9999/tsfile/live/0005_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-6,http://113.220.232.88:9999/tsfile/live/0006_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-8,http://113.220.232.88:9999/tsfile/live/0008_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-9,http://113.220.232.88:9999/tsfile/live/0009_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-10,http://113.220.232.88:9999/tsfile/live/0010_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-11,http://113.220.232.88:9999/tsfile/live/0011_2.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-12,http://113.220.232.88:9999/tsfile/live/0012_2.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-13,http://113.220.232.88:9999/tsfile/live/0013_2.m3u8?key=txiptv&playlive=1&authid=0
+CCTV1-4,http://113.220.232.88:9999/tsfile/live/0014_1.m3u8?key=txiptv&playlive=1&authid=0
+CCTV-15,http://113.220.232.88:9999/tsfile/live/0015_1.m3u8?key=txiptv&playlive=1&authid=0
 
 卫视频道,#genre#
 
