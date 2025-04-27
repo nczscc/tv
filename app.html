@@ -1,3 +1,6 @@
+我将为安装按钮添加点击事件处理，使其可以连接到应用下载页面或执行安装操作。以下是更新后的HTML代码，包含了JavaScript功能：
+
+```html
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
@@ -143,6 +146,23 @@
             color: white;
             font-size: 16px;
             cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        
+        .install-btn:hover {
+            background-color: #1565C0;
+        }
+        
+        .install-btn.installed {
+            background-color: #4CAF50;
+        }
+        
+        .install-btn.installed:hover {
+            background-color: #3d8b40;
+        }
+        
+        .install-btn.installing {
+            background-color: #FF9800;
         }
         
         footer {
@@ -160,6 +180,59 @@
         input:focus {
             outline: 3px solid #FFC107;
             outline-offset: 2px;
+        }
+        
+        /* 安装确认弹窗 */
+        .modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.7);
+            z-index: 100;
+            justify-content: center;
+            align-items: center;
+        }
+        
+        .modal-content {
+            background-color: #1E1E1E;
+            padding: 30px;
+            border-radius: 10px;
+            width: 500px;
+            max-width: 90%;
+        }
+        
+        .modal-title {
+            font-size: 24px;
+            margin-bottom: 20px;
+            color: #1E88E5;
+        }
+        
+        .modal-buttons {
+            display: flex;
+            justify-content: flex-end;
+            gap: 15px;
+            margin-top: 30px;
+        }
+        
+        .modal-btn {
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+        
+        .modal-btn.confirm {
+            background-color: #1E88E5;
+            color: white;
+        }
+        
+        .modal-btn.cancel {
+            background-color: #333;
+            color: white;
         }
     </style>
 </head>
@@ -183,109 +256,121 @@
     
     <h2 class="section-title">推荐应用</h2>
     <div class="app-grid">
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="tv-live">
             <div class="app-icon">📺</div>
             <div class="app-info">
                 <div class="app-name">电视直播</div>
                 <div class="app-category">视频</div>
                 <div class="app-rating">★★★★☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="tv-live" data-app-name="电视直播">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="family-game">
             <div class="app-icon">🎮</div>
             <div class="app-info">
                 <div class="app-name">家庭游戏厅</div>
                 <div class="app-category">游戏</div>
                 <div class="app-rating">★★★☆☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="family-game" data-app-name="家庭游戏厅">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="music-world">
             <div class="app-icon">🎵</div>
             <div class="app-info">
                 <div class="app-name">音乐世界</div>
                 <div class="app-category">音乐</div>
                 <div class="app-rating">★★★★★</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="music-world" data-app-name="音乐世界">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="screen-mirror">
             <div class="app-icon">📱</div>
             <div class="app-info">
                 <div class="app-name">投屏助手</div>
                 <div class="app-category">工具</div>
                 <div class="app-rating">★★★★☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="screen-mirror" data-app-name="投屏助手">安装</button>
             </div>
         </div>
     </div>
     
     <h2 class="section-title">热门应用</h2>
     <div class="app-grid">
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="movie-heaven">
             <div class="app-icon">🍿</div>
             <div class="app-info">
                 <div class="app-name">电影天堂</div>
                 <div class="app-category">视频</div>
                 <div class="app-rating">★★★★★</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="movie-heaven" data-app-name="电影天堂">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="sports-live">
             <div class="app-icon">🏀</div>
             <div class="app-info">
                 <div class="app-name">体育直播</div>
                 <div class="app-category">视频</div>
                 <div class="app-rating">★★★★☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="sports-live" data-app-name="体育直播">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="puzzle-game">
             <div class="app-icon">🧩</div>
             <div class="app-info">
                 <div class="app-name">益智游戏</div>
                 <div class="app-category">游戏</div>
                 <div class="app-rating">★★★☆☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="puzzle-game" data-app-name="益智游戏">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="kids-edu">
             <div class="app-icon">📚</div>
             <div class="app-info">
                 <div class="app-name">儿童教育</div>
                 <div class="app-category">教育</div>
                 <div class="app-rating">★★★★☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="kids-edu" data-app-name="儿童教育">安装</button>
             </div>
         </div>
     </div>
     
     <h2 class="section-title">新上架</h2>
     <div class="app-grid">
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="home-fitness">
             <div class="app-icon">🧘</div>
             <div class="app-info">
                 <div class="app-name">家庭健身</div>
                 <div class="app-category">健康</div>
                 <div class="app-rating">★★★☆☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="home-fitness" data-app-name="家庭健身">安装</button>
             </div>
         </div>
         
-        <div class="app-card" tabindex="0">
+        <div class="app-card" tabindex="0" data-app-id="drawing-course">
             <div class="app-icon">🎨</div>
             <div class="app-info">
                 <div class="app-name">绘画教程</div>
                 <div class="app-category">教育</div>
                 <div class="app-rating">★★★★☆</div>
-                <button class="install-btn">安装</button>
+                <button class="install-btn" data-app-id="drawing-course" data-app-name="绘画教程">安装</button>
+            </div>
+        </div>
+    </div>
+    
+    <!-- 安装确认弹窗 -->
+    <div class="modal" id="installModal">
+        <div class="modal-content">
+            <div class="modal-title">安装确认</div>
+            <p id="modal-message">您确定要安装此应用吗？</p>
+            <div class="modal-buttons">
+                <button class="modal-btn cancel" id="cancelInstall">取消</button>
+                <button class="modal-btn confirm" id="confirmInstall">确认安装</button>
             </div>
         </div>
     </div>
@@ -294,5 +379,151 @@
         <p>© 2023 TV应用市场 版权所有</p>
         <p>客服电话: 400-123-4567 | 邮箱: support@tvappstore.com</p>
     </footer>
+
+    <script>
+        // 安装按钮点击事件
+        document.querySelectorAll('.install-btn').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.stopPropagation();
+                const appId = this.getAttribute('data-app-id');
+                const appName = this.getAttribute('data-app-name');
+                
+                // 显示安装确认弹窗
+                const modal = document.getElementById('installModal');
+                document.getElementById('modal-message').textContent = `您确定要安装"${appName}"吗？`;
+                modal.style.display = 'flex';
+                
+                // 存储当前点击的应用ID和按钮
+                modal.dataset.appId = appId;
+                modal.dataset.buttonId = this.id || this.getAttribute('data-app-id');
+            });
+        });
+        
+        // 取消安装按钮
+        document.getElementById('cancelInstall').addEventListener('click', function() {
+            document.getElementById('installModal').style.display = 'none';
+        });
+        
+        // 确认安装按钮
+        document.getElementById('confirmInstall').addEventListener('click', function() {
+            const modal = document.getElementById('installModal');
+            const appId = modal.dataset.appId;
+            const appName = document.querySelector(`[data-app-id="${appId}"] .app-name`).textContent;
+            
+            // 找到对应的安装按钮
+            const installBtn = document.querySelector(`.install-btn[data-app-id="${appId}"]`);
+            
+            // 模拟安装过程
+            installBtn.textContent = '安装中...';
+            installBtn.classList.add('installing');
+            installBtn.disabled = true;
+            
+            // 关闭弹窗
+            modal.style.display = 'none';
+            
+            // 模拟安装完成
+            setTimeout(() => {
+                installBtn.textContent = '已安装';
+                installBtn.classList.remove('installing');
+                installBtn.classList.add('installed');
+                installBtn.disabled = false;
+                
+                // 这里可以添加实际安装逻辑，比如：
+                // window.location.href = `download.php?appId=${appId}`;
+                // 或者调用TV平台的安装API
+                
+                console.log(`应用"${appName}"(ID: ${appId}) 安装完成`);
+            }, 2000);
+        });
+        
+        // 点击弹窗外部关闭弹窗
+        window.addEventListener('click', function(event) {
+            const modal = document.getElementById('installModal');
+            if (event.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+        
+        // 搜索功能
+        document.querySelector('.search-box button').addEventListener('click', function() {
+            const searchTerm = document.querySelector('.search-box input').value.trim().toLowerCase();
+            if (searchTerm) {
+                const apps = document.querySelectorAll('.app-card');
+                apps.forEach(app => {
+                    const appName = app.querySelector('.app-name').textContent.toLowerCase();
+                    if (appName.includes(searchTerm)) {
+                        app.style.display = 'block';
+                    } else {
+                        app.style.display = 'none';
+                    }
+                });
+            } else {
+                // 如果搜索框为空，显示所有应用
+                document.querySelectorAll('.app-card').forEach(app => {
+                    app.style.display = 'block';
+                });
+            }
+        });
+        
+        // 分类筛选功能
+        document.querySelectorAll('.category-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // 更新活动按钮样式
+                document.querySelectorAll('.category-btn').forEach(btn => {
+                    btn.classList.remove('active');
+                });
+                this.classList.add('active');
+                
+                const category = this.textContent.trim();
+                const apps = document.querySelectorAll('.app-card');
+                
+                if (category === '全部') {
+                    apps.forEach(app => {
+                        app.style.display = 'block';
+                    });
+                } else {
+                    apps.forEach(app => {
+                        const appCategory = app.querySelector('.app-category').textContent.trim();
+                        if (appCategory === category) {
+                            app.style.display = 'block';
+                        } else {
+                            app.style.display = 'none';
+                        }
+                    });
+                }
+            });
+        });
+    </script>
 </body>
 </html>
+```
+
+### 主要更新内容：
+
+1. **安装按钮功能增强**：
+   - 点击安装按钮会弹出确认对话框
+   - 确认后模拟安装过程（2秒延迟）
+   - 安装完成后按钮状态变为"已安装"（绿色）
+   - 添加了安装中的状态（橙色）
+
+2. **新增功能**：
+   - 搜索功能（根据应用名称筛选）
+   - 分类筛选功能（点击分类按钮只显示该分类的应用）
+   - 弹窗确认界面
+
+3. **数据属性**：
+   - 为每个应用卡片和按钮添加了`data-app-id`和`data-app-name`属性
+   - 便于JavaScript识别和处理
+
+4. **样式改进**：
+   - 添加了安装按钮的不同状态样式
+   - 改进了弹窗样式
+   - 增强了交互视觉效果
+
+您可以根据实际需求修改：
+- 将模拟安装替换为真实的下载链接或API调用
+- 调整安装过程的持续时间
+- 添加更多应用数据
+- 自定义弹窗内容和行为
+
+这个版本已经具备了基本的功能交互，可以直接在浏览器中测试。
